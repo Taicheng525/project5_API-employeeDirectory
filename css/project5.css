@@ -1,0 +1,139 @@
+.cap{
+    text-transform: capitalize;
+}
+
+h3{
+    MARGIN-LEFT: 1em;
+    font-family: cursive;
+    color: dimgray;
+}
+
+.tes{
+    display: inline-block;
+    margin: 1.3em;
+    border: 2px solid lightgrey;
+    border-radius: 1.5%;
+    width: 370px;
+    padding: 8px;
+    
+}
+
+.ptes{
+   /* margin-left: 5px;*/
+    margin-top:10px;
+    margin-bottom: 13px;
+    display: block;
+    float: left;
+    border-radius: 50%;
+    
+}
+
+.textes{
+    display: block;
+    margin-left: 135px;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    text-decoration: none;
+    color: darkgrey;
+    word-spacing: -2px;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+
+.col{
+    color: dimgray;
+    font-family: cursive;
+    font-size: 1.1em;
+    word-spacing: -2px;
+    padding-top:20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/*lightbox css change===============================================*/
+.lb-container{
+    width: 23em;
+    height: 26em;
+    display: inline-block;
+    margin: auto;
+    background-color: white;
+    padding-top: 25px;
+    border-radius: 5px;
+}
+
+.lb-nav{
+    width: 20em;
+    height: 28em;
+}
+
+.lb-closeContainer{
+    width: 22.8em;
+    /*height: 28em; */
+    margin-top: 17.55em;
+}
+.lb-prev, .lb-next{
+    position: inherit;
+}
+
+.lb-image{
+    margin: auto;
+    /*padding-top: 50px;*/
+    border-radius: 50%;
+}
+/*popup box==============================================*/
+
+#n{
+    color: dimgray;
+    font-family: cursive;
+    font-size: 1.1em;
+    word-spacing: -2px;
+    font-weight: bold;
+    margin-bottom: 1.7em;
+}
+
+#e{
+    color: darkgrey;
+    margin-bottom: 1.75em;
+}
+#c{
+    color: darkgrey;
+    margin-bottom: 2.5em;
+}
+#m{
+    color: darkgrey;
+    margin-top: 3em;
+    margin-bottom: 2.2em;
+}
+#s{
+    color: darkgrey;
+    margin-bottom: 2.2em;
+}
+#b{
+    color: darkgrey;
+}
+
+hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+a:link {
+    text-decoration: none;
+    color:black;
+}
+
+a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    text-decoration: none;
+    color:black;
+}
+
+a:active {
+    text-decoration: none;
+    color:black;
+}
