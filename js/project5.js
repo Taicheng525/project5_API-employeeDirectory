@@ -32,7 +32,7 @@ for (let i=0; i<12; i++){
             email = result.email;
             city = result.location.city;
             cell = result.cell;
-            street = result.location.street+", "+result.nat+"-"+result.location.postcode;
+            street = result.location.street+", "+city+", "+state+", "+result.nat+"-"+result.location.postcode;
             birth = (result.dob).slice(0,10);
             obj.picc = pic;
             obj.name = fname+" "+lname;
@@ -69,7 +69,7 @@ $(".tes").on("click",function(){
     setTimeout(function(){
     $('#n').text(list[id_index].name);
     $('#e').text(list[id_index].emaill);
-    $('#c').text(list[id_index].cityy);
+    $('#c').text(list[id_index].usernn);
     $('#m').text(list[id_index].celll);
     $('#s').text(list[id_index].streett);
     $('#b').text("Birthday: "+list[id_index].birthh);
